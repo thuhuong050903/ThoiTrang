@@ -1,0 +1,28 @@
+.choice{
+    text-decoration: none;
+    color: black;
+}
+.choice:hover {
+    border-bottom: #b71c1c 4px solid;
+}
+
+.name-price {
+    text-align: center;
+}
+
+.icon-group{
+    text-align: center;
+    width:200px;
+    margin-left: 50px;
+    display: flex; 
+    justify-content: space-between;
+    list-style-type: none;
+}
+.icon{
+    display: none;
+}
+.product img:hover .icon{
+    display: block;
+    position: absolute;
+    z-index: 999999;
+}
